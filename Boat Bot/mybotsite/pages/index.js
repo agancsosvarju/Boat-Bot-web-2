@@ -1,8 +1,8 @@
 
 export default function Home() {
-  const CLIENT_ID = 'YOUR_CLIENT_ID';
+  const CLIENT_ID = '1353371586282913832';
   const REDIRECT_URI = 'https://mybotsite.com/callback';
-  const INVITE_URL = `https://discord.com/oauth2/authorize?client_id=${CLIENT_ID}&permissions=8&scope=bot%20applications.commands&redirect_uri=${encodeURIComponent(REDIRECT_URI)}&response_type=code`;
+  const INVITE_URL = `https://discord.com/oauth2/authorize?client_id=${1353371586282913832}&permissions=8&scope=bot%20applications.commands&redirect_uri=${encodeURIComponent(REDIRECT_URI)}&response_type=code`;
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white flex flex-col items-center justify-center p-6">
